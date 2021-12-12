@@ -1,0 +1,24 @@
+{
+  "name": "scaling-node-api",
+  "version": "1.0.0",
+  "description": "A node express API that scales with worker nodes",
+  "main": "serve.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephpcox/scaling-node-api.git"
+  },
+  "author": "Joseph Cox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephpcox/scaling-node-api/issues"
+  },
+  "homepage": "https://github.com/josephpcox/scaling-node-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
