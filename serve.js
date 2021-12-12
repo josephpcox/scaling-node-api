@@ -18,7 +18,7 @@ if (cluster.isPrimary) {
         console.log(error)
         console.log('----- Exception origin -----')
         console.log(origin)
-        console.log('server is listening on at http://localhost:5000');
+        console.log('server is listening on at http://localhost:8080');
     })
       
     process.on('unhandledRejection', (reason, promise) => {
@@ -26,7 +26,7 @@ if (cluster.isPrimary) {
         console.log(promise)
         console.log('----- Reason -----')
         console.log(reason)
-        console.log('server is listening on at http://localhost:5000');
+        console.log('server is listening on at http://localhost:8080');
     })
     const app = express();
     const port = 8080;
