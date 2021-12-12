@@ -32,9 +32,8 @@ if (cluster.isPrimary) {
     const port = 8080;
     const pid = process.pid;
     app.get('/', (req, res) => {
-        res.send('Hello World');
+        res.send(`hello from process: ${pid}`);
     });
-
     app.listen(port, () =>{
         console.log(`Process${pid} is listenining on http://localhost:${port}`);
     });
